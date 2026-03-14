@@ -2,13 +2,21 @@
 </script>
 
 <template>
-  <div class="app">
+  <v-app style="background-color: white !important;">
     <RouterView />
-  </div>
+  </v-app>
 </template>
 
-<style scoped>
-.app {
-  min-height: 100vh;
+<style>
+body, html {
+  background-color: white !important;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.v-application {
+  background-color: white !important;
+  overflow: hidden;
+  height: 100vh;
 }
 </style>
