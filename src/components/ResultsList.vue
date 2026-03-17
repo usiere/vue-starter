@@ -16,7 +16,6 @@ const props = withDefaults(defineProps<Props>(), {
 const emit = defineEmits<{
   toggleFilters: []
 }>()
-
 const getResultsText = (): string => {
   if (searchStore.totalResults === 0) {
     return 'No results found';
