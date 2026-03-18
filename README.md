@@ -102,9 +102,6 @@ src/
 ### **Pinia Store**
 Centralized search state, filter logic, and API calls in a single store. Components stay thin and focused on presentation.
 
-### **Vuetify**
-Chosen to match the team's production stack. Provides accessible, well-tested UI primitives out of the box.
-
 ### **Debounce + AbortController**
 Search triggers 300ms after the user stops typing. Stale in-flight requests are cancelled to avoid race conditions.
 
@@ -113,6 +110,9 @@ The Crossref API returns facets as key-value objects. These are transformed into
 
 ### **Conditional Filter Panel**
 Filters only appear after a search is performed, keeping the initial UI clean and focused.
+
+### **Vuetify**
+Provides accessible, well-tested UI primitives out of the box.
 
 ### Time Investment
 I spent approximately 2 hours on the core functionality (search, facets, filtering, results display). I then invested additional time polishing the UI, adding accessibility features, the Actions menu, and unit tests — areas I felt were worth the extra effort to demonstrate production-quality thinking.
